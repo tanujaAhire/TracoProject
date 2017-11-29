@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="browserParameter" value="firefox"/>
+    <classes>
+      <class name="com.selenium.TrackoProject.TrackoClass">
+        <methods>
+          <include name="signup"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.selenium.TrackoProject.TrackoClass -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test3(failed)" parallel="tests">
+    <parameter name="browserParameter" value="ie"/>
+    <classes>
+      <class name="com.selenium.TrackoProject.TrackoClass">
+        <methods>
+          <include name="signup"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.selenium.TrackoProject.TrackoClass -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="browserParameter" value="chrome"/>
+    <classes>
+      <class name="com.selenium.TrackoProject.TrackoClass">
+        <methods>
+          <include name="signup"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.selenium.TrackoProject.TrackoClass -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
