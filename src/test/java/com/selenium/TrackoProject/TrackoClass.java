@@ -66,11 +66,7 @@ public class TrackoClass
 		WebElement loginSignUpbtn_textbox=driver.findElement(By.id("sub_btn_signup"));
 		loginSignUpbtn_textbox.click();
 		
-		WebElement OTP_textbox=driver.findElement(By.id("otp"));
-		OTP_textbox.sendKeys("123456");
 		
-		WebElement Verifybtn_textbox=driver.findElement(By.id("sub_btn_verify"));
-		Verifybtn_textbox.click();
 		
 	}
 	

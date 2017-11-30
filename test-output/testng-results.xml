@@ -2,22 +2,22 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="72" started-at="2017-11-28T14:33:38Z" finished-at="2017-11-28T14:33:38Z">
+  <suite name="Default suite" duration-ms="75" started-at="2017-11-30T11:52:32Z" finished-at="2017-11-30T11:52:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="72" started-at="2017-11-28T14:33:38Z" finished-at="2017-11-28T14:33:38Z">
+    <test name="Default test" duration-ms="75" started-at="2017-11-30T11:52:32Z" finished-at="2017-11-30T11:52:32Z">
       <class name="com.selenium.TrackoProject.TrackoClass">
-        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.selenium.TrackoProject.TrackoClass@5442a311]" name="setup" is-config="true" duration-ms="0" started-at="2017-11-28T20:03:38Z" finished-at="2017-11-28T20:03:38Z">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.selenium.TrackoProject.TrackoClass@42d80b78]" name="setup" is-config="true" duration-ms="0" started-at="2017-11-30T17:22:32Z" finished-at="2017-11-30T17:22:32Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browserParameter' is required by BeforeTest on method setup but has not been marked @Optional or defined
-in C:\Users\mohan\AppData\Local\Temp\testng-eclipse--1554929357\testng-customsuite.xml]]>
+in C:\Users\mohan\AppData\Local\Temp\testng-eclipse-1756738859\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browserParameter' is required by BeforeTest on method setup but has not been marked @Optional or defined
-in C:\Users\mohan\AppData\Local\Temp\testng-eclipse--1554929357\testng-customsuite.xml
+in C:\Users\mohan\AppData\Local\Temp\testng-eclipse-1756738859\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
@@ -44,17 +44,17 @@ in C:\Users\mohan\AppData\Local\Temp\testng-eclipse--1554929357\testng-customsui
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="signup()[pri:0, instance:com.selenium.TrackoProject.TrackoClass@5442a311]" name="signup" duration-ms="1" started-at="2017-11-28T20:03:38Z" finished-at="2017-11-28T20:03:38Z">
+        <test-method status="SKIP" signature="signup()[pri:0, instance:com.selenium.TrackoProject.TrackoClass@42d80b78]" name="signup" duration-ms="0" started-at="2017-11-30T17:22:32Z" finished-at="2017-11-30T17:22:32Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browserParameter' is required by BeforeTest on method setup but has not been marked @Optional or defined
-in C:\Users\mohan\AppData\Local\Temp\testng-eclipse--1554929357\testng-customsuite.xml]]>
+in C:\Users\mohan\AppData\Local\Temp\testng-eclipse-1756738859\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browserParameter' is required by BeforeTest on method setup but has not been marked @Optional or defined
-in C:\Users\mohan\AppData\Local\Temp\testng-eclipse--1554929357\testng-customsuite.xml
+in C:\Users\mohan\AppData\Local\Temp\testng-eclipse-1756738859\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
@@ -81,7 +81,7 @@ in C:\Users\mohan\AppData\Local\Temp\testng-eclipse--1554929357\testng-customsui
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.selenium.TrackoProject.TrackoClass@5442a311]" name="teardown" is-config="true" duration-ms="0" started-at="2017-11-28T20:03:38Z" finished-at="2017-11-28T20:03:38Z">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.selenium.TrackoProject.TrackoClass@42d80b78]" name="teardown" is-config="true" duration-ms="0" started-at="2017-11-30T17:22:32Z" finished-at="2017-11-30T17:22:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
