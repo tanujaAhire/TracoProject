@@ -27,12 +27,13 @@ public class TrackoClass
 		driver = new ChromeDriver();
 		}
 
-		
-		else if (browser.equals("ie"))
+		else if(browser.equals("firefox"))
 		{
-			System.setProperty("webdriver.ie.driver", "Resource/IEDriverServer.exe");
-			driver = new InternetExplorerDriver();
+			System.setProperty("webdriver.gecko.driver", "Resource/geckodriver.exe");
+			driver = new FirefoxDriver();
 		}
+
+
 
 		else{
 			System.out.println("No browser specified");

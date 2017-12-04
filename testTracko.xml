@@ -7,11 +7,13 @@
     </classes>
   </test> <!-- Test -->
   
-  
-  <test name="Test3">
-      <parameter name="browserParameter" value="ie"/>
+  <test name="Test2">
+      <parameter name="browserParameter" value="firefox"/>
     <classes>
       <class name="com.selenium.TrackoProject.TrackoClass"/>
     </classes>
   </test> <!-- Test -->
+  
+ 
+
 </suite> <!-- Suite -->
