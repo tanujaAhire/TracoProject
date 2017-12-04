@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.selenium.TrackoProject.TrackoClass">
+      <class name="com.selenium.TrackoProject.TrackoMain">
         <methods>
           <include name="signup"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.selenium.TrackoProject.TrackoClass -->
+      </class> <!-- com.selenium.TrackoProject.TrackoMain -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

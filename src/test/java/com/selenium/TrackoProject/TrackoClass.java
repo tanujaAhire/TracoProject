@@ -27,11 +27,7 @@ public class TrackoClass
 		driver = new ChromeDriver();
 		}
 
-		else if(browser.equals("firefox"))
-		{
-			System.setProperty("webdriver.gecko.driver", "Resource/geckodriver.exe");
-			driver = new FirefoxDriver();
-		}
+		
 		else if (browser.equals("ie"))
 		{
 			System.setProperty("webdriver.ie.driver", "Resource/IEDriverServer.exe");
